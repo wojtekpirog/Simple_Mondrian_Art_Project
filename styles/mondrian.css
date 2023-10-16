@@ -1,0 +1,100 @@
+:root {
+  --white: #f6f6f6;
+  --canvas: #fff4db;
+  --shadow: #8d8d8d;
+  --red: #e72f24;
+  --black: #232629;
+  --blue: #004592;
+  --yellow: #f9d01e;
+}
+html {
+  background: var(--white);
+}
+body {
+  margin: 0;
+}
+#painting {
+  width: 748px;
+  height: 748px;
+  background: var(--canvas);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 4px var(--shadow);
+}
+#toprow {
+  height: 414px;
+}
+#redbox {
+  width: 320px;
+  height: inherit;
+}
+#line1 {
+  width: 9px;
+  height: inherit;
+}
+#line2 {
+  width: inherit;
+  height: 9px;
+}
+#midrow {
+  height: 294px;
+}
+#rightbox {
+  width: 52px;
+}
+#bluebox {
+  width: inherit;
+  height: 130px;
+}
+#line4 {
+  height: 19px;
+  width: 52px;
+}
+#line5 {
+  height: 9px;
+  width: 696px;
+}
+#bottomrow {
+  height: 20px;
+}
+#yellowbox {
+  width: 198px;
+  height: inherit;
+}
+#blackbox {
+  width: 151px;
+  height: inherit;
+}
+.leftbox {
+  width: 320px;
+  height: inherit;
+}
+.line3 {
+  width: 9px;
+  height: inherit;
+}
+.midbox {
+  width: 358px;
+  height: inherit;
+}
+.line6 {
+  width: 9px;
+  height: inherit;
+}
+.red {
+  background: var(--red);
+}
+.black {
+  background: var(--black);
+}
+.blue {
+  background: var(--blue);
+}
+.yellow {
+  background: var(--yellow);
+}
+.left {
+  float: left;
+}
